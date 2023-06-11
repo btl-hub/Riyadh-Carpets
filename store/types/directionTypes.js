@@ -1,0 +1,2 @@
+export const CHANGE_DIR = "CHANGE_DIR";
+export const FETCH_DIRECTION = "FETCH_DIRECTION";

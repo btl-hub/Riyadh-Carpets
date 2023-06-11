@@ -1,0 +1,31 @@
+{
+  "name": "ecommerce-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "set NODE_OPTIONS=\"--max_old_space_size=4096\" && next dev",
+    "dev:mac": "NODE_OPTIONS=\"--max_old_space_size=4096\" next",
+    "build": "set NODE_OPTIONS=\"--max_old_space_size=4096\" && next build",
+    "start": "set NODE_OPTIONS=\"--max_old_space_size=4096\" && next start -p 3004"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^2.6.0",
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/icons": "^4.11.2",
+    "axios": "^0.21.1",
+    "jss": "^10.6.0",
+    "jss-rtl": "^0.3.0",
+    "next": "10.2.3",
+    "next-redux-wrapper": "^7.0.1",
+    "pure-react-carousel": "^1.27.6",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-hook-form": "^7.8.8",
+    "react-redux": "^7.2.4",
+    "react-virtualized": "^9.22.3",
+    "redux": "^4.1.0",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.3.0",
+    "yup": "^0.32.9"
+  }
+}
